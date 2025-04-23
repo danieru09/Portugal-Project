@@ -1,0 +1,79 @@
+header {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333;
+}
+
+header p {
+    margin: 5px 0 20px;
+    font-size: 1.2em;
+    color: #666;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    padding: 10px 20px;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.section p {
+    max-width: 500px;
+    line-height: 1.6;
+    margin: 10px 0;
+    font-size: 1.7em;
+    color: white;
+}
+
+.history-section {
+    background-image: url("p_pics/p_castle.jpeg");
+}
+
+.culture-section {
+    background-image: url("p_pics/p_music.jpeg");
+}
+
+.tourism-section {
+    background-image: url("p_pics/p_beach.jpeg");
+}
+
+.food-section {
+    background-image: url("p_pics/p_food.jpeg");
+}
